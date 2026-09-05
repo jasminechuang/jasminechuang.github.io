@@ -235,23 +235,47 @@
   </style>
 </head>
 <body>
-<body>
+  <!-- Top Navigation Bar -->
+  <nav>
+    <a href="#" class="nav-brand">RBS | Ho-Chen's Portfolio</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="resume.pdf" class="btn-contact" target="_blank">Download Resume</a>
+    </div>
+  </nav>
+
   <div class="container">
-    <!-- Header: Personal Statement -->
-    <header>
-      <img src="headshot.jpeg" alt="Ho-Chen Chuang" class="headshot">
-      <h1>Ho-Chen Chuang</h1>
-      <div class="subtitle">Business Analytics & Information Technology (BAIT)</div>
-      <p class="personal-statement">
-        Welcome! I'm Ho-Chen or you could just called me Jasmine. I'm a Business Analytics and Information Technology (BAIT) student at Rutgers Business School, passionate about leveraging data analytics, web technologies, and business intelligence to drive data-informed decisions.
-      </p>
-      <div class="social-links">
-        <a href="https://github.com/jasminechuang" target="_blank" rel="noopener">GitHub Profile</a>
-        <a href="https://linkedin.com/in/ho-chen-chuang-1a7940272/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="mailto:hc999@scarletmail.rutgers.edu">Email Me</a>
+    <!-- Hero / Profile Section -->
+    <header class="hero" id="about">
+      <!-- Left Column: Round Photo + Credentials -->
+      <div class="profile-col">
+        <div class="avatar-wrapper">
+          <img src="headshot.jpeg" alt="Ho-Chen Chuang" />
+        </div>
+        <div class="profile-name">Ho-Chen Chuang</div>
+        <div class="profile-school">Business Analytics &amp; Information Technology (BAIT)</div>
+        <div class="profile-school" style="font-weight: 600; color: var(--primary); margin-top: 0.25rem;">
+          Expected Graduation: May 2027
+        </div>
+      </div>
+
+      <!-- Right Column: Personal Statement & Social Links -->
+      <div class="hero-content">
+        <span class="eyebrow">Rutgers Business School</span>
+        <h1>Welcome! I'm Jasmine.</h1>
+        <p class="personal-statement">
+          I'm a Business Analytics and Information Technology (BAIT) student at Rutgers Business School, passionate about leveraging data analytics, web technologies, and business intelligence to drive data-informed decisions.
+        </p>
+        <div class="social-links" style="display: flex; gap: 1.25rem; margin-top: 1.25rem;">
+          <a href="https://github.com/jasminechuang" target="_blank" rel="noopener" style="color: var(--primary); font-weight: 600; text-decoration: none;">GitHub</a>
+          <a href="https://linkedin.com/in/ho-chen-chuang-1a7940272/" target="_blank" rel="noopener" style="color: var(--primary); font-weight: 600; text-decoration: none;">LinkedIn</a>
+          <a href="mailto:hc999@scarletmail.rutgers.edu" style="color: var(--primary); font-weight: 600; text-decoration: none;">Email Me</a>
+        </div>
       </div>
     </header>
 
+    <!-- Section 1: Skills Showcase -->
     <!-- Section 1: Skills Showcase -->
     <section id="skills">
       <h2>Skills Showcase</h2>
